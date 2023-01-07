@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/speech-companion/static/css/main.c365f64c.css",
+    "main.js": "/speech-companion/static/js/main.e92d25e6.js",
+    "static/media/speaker.jpg": "/speech-companion/static/media/speaker.38a16bbe2bad10a08f49.jpg",
+    "index.html": "/speech-companion/index.html",
+    "main.c365f64c.css.map": "/speech-companion/static/css/main.c365f64c.css.map",
+    "main.e92d25e6.js.map": "/speech-companion/static/js/main.e92d25e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c365f64c.css",
+    "static/js/main.e92d25e6.js"
+  ]
+}

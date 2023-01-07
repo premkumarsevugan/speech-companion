@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)) , url("D:\study\semester 5\stotttos\public\img\speaker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+.right,.left{
+    margin: 50px;
+}
+.icon{
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.textbox{
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(236, 232, 236, 0.7);
+    outline-color:rgb(252, 1, 235);
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 50%;
+    text-align: justify;
+    /* transform: translateY(-50%); */
+    overflow-y: scroll;
+}
+.volume{
+    display: flex;
+    justify-content: center;
+}
+.bclass{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.bclass>button{
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+.bclass>button:hover{
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+@media screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .textbox{
+        width: 300px;
+    }
+  }
